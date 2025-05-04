@@ -6,7 +6,7 @@ public class TemperatureConverter {
         double temperature;
         char unit;
         
-        // Prompt the user to enter the temperature and its unit
+        // Prompt the user to enter the temperature and its units
         System.out.print("Enter temperature: ");
         temperature = input.nextDouble();
         System.out.print("Enter unit (C/F/K): ");
@@ -35,7 +35,7 @@ public class TemperatureConverter {
         }
     }
     
-    // Conversion methods
+    // Listed here are the conversion methods
     public static double celsiusToFahrenheit(double celsius) {
         return (celsius * 9 / 5) + 32;
     }
